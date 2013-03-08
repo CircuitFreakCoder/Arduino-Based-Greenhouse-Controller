@@ -19,9 +19,7 @@
   http://www.youtube.com/watch?v=M_Y4bFY2WNw
 
   Arduino-based Greenhouse Controller Firmware by Jorick Caberio
-  
-
-  MIT License:
+ 
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this 
   software and associated documentation files (the "Software"), to deal in the Software 
@@ -292,7 +290,7 @@ void loop()
     if((now.minute()% 30 == 0) &&(now.second()% 10 == 0))
     
     {
-      File dataFile = SD.open("joric.txt", FILE_WRITE);
+      File dataFile = SD.open("reading.txt", FILE_WRITE);
 
       // if the file is available, write to it:
       if (dataFile) {
