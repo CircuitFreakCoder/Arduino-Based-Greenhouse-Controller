@@ -288,8 +288,8 @@ void loop()
     
     getMode();
  
-    //log the readings every 30 minutes    
-    if((now.minute()%30==0) &&(now.second()%60==0))
+    //log the readings 6 times every 30 minutes    
+    if((now.minute()% 30 == 0) &&(now.second()% 10 == 0))
     
     {
       File dataFile = SD.open("joric.txt", FILE_WRITE);
