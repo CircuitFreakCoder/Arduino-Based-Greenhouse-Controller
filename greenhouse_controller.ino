@@ -18,8 +18,9 @@
 
   http://www.youtube.com/watch?v=M_Y4bFY2WNw
 
-  Arduino-based Greenhouse Controller Firmware by Jorick Caberio
- 
+  Arduino-based Greenhouse Controller Firmware 
+
+  Copyright (c) 2013 Jorick A. Caberio and contributors
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of this 
   software and associated documentation files (the "Software"), to deal in the Software 
